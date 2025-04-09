@@ -1,0 +1,26 @@
+<svg
+  class="figma-icon"
+  xmlns="http://www.w3.org/2000/svg"
+  width="64"
+  height="64"
+  fill="none"
+  viewBox="-0.64 -0.64 33.28 33.28"
+><rect
+    width="33.28"
+    height="33.28"
+    x="-.64"
+    y="-.64"
+    fill="#38BDF8"
+    stroke-width="0"
+    rx="6.656"
+    transform="matrix(.92 0 0 .92 1.28 1.28)"
+  /><g fill-rule="evenodd" clip-rule="evenodd"><path
+      fill="#fff"
+      d="M16 16a4 4 0 1 1 8 0 4 4 0 0 1-8 0Z"
+    /><path fill="#00ff9d" d="M8 24a4 4 0 0 1 4-4h4v4a4 4 0 0 1-8 0Z" /><path
+      fill="#FF7262"
+      d="M16 4v8h4a4 4 0 0 0 0-8h-4Z"
+    /><path fill="#F24E1E" d="M8 8a4 4 0 0 0 4 4h4V4h-4a4 4 0 0 0-4 4Z" /><path
+      fill="#A259FF"
+      d="M8 16a4 4 0 0 0 4 4h4v-8h-4a4 4 0 0 0-4 4Z"
+    /></g></svg>

@@ -1,0 +1,125 @@
+/* GLOBAL */
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* *:focus {
+  outline: 2px dashed var(--primary-color);
+  outline-offset: 3px;
+} */
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--body-bg);
+  color: var(--text-color);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+/* VISUALLY-HIDDEN */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* BUTTONS */
+button,
+a {
+  cursor: pointer;
+}
+.site-header__sitenav-toggler {
+  display: none;
+  padding: 0;
+  border: none;
+  border-radius: 4px;
+  color: var(--primary-color);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.site-header__sitenav-toggler-inner {
+  display: flex;
+}
+
+.site-header__sitenav-toggler:active {
+  transform: scale(0.9);
+}
+
+
+/* DARK-MODE */
+.dark-mode {
+  --body-bg: #202c36;
+  --element-bg: #2b3844;
+  --text-color: #fff;
+}
+
+
+/* CONTAINER  */
+.container {
+  width: 100%;
+  /* max-width: 1178px; */
+  max-width: 1300px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* MAIN-CONTENT */
+.main-content {
+  flex-grow: 1;
+}
+
+
+/* AUTOFILL-SYLES */
+/* input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border-color: transparent;
+  -webkit-text-fill-color: inherit;
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+} */
+
+
+/* PLACEHOLDER-STYLES */
+/* ::-webkit-input-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder,
+:-moz-placeholder {
+  color: rgba(52, 49, 61, 0.5);
+  opacity: 1;
+} */
